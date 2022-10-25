@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<title>Что такое html?</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		ul {
+			padding: 20px;
+		}
+	</style>
+</head>
+<body> 
+	<div>
+		<h1>Урок с формами</h1>
+
+		<h2>Форма 1</h2>
+		<form>
+			Ф.И.О.:<br>
+			<input type="text" name="firstname" required><br>
+			Номер телефона:<br>
+			<input type="text" name="lastname">
+		</form>
+
+		<center><h2>Форма 2</h2>
+		<form>
+			<fieldset>
+			<center><legend>На какой планете мы живём?</legend><center>
+			<input type="radio" name="планета" value="Земля" checked> Земля<br>
+			<input type="radio" name="планета" value="Вода"> Вода<br>			
+			<input type="radio" name="планета" value="Марс"> Марс<br>
+			<input type="submit" name="Submit">
+			</fieldset>
+		</form></center>
+
+		<h2>Форма 3</h2>
+		<form>
+			<select name="cars">
+				<option value="volvo">Volvo</option>
+				<option value="volvo">Saab</option>
+				<option value="volvo">Porshe</option>
+			</select>
+		</form>
+	</div>
+</body>
+</html>
